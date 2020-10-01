@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:gravity="center_horizontal"
+        android:text="Hitung Gaji Karyawan"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNamaKry"
+        android:hint="Nama Karyawan" />
+
+    <EditText
+        android:id="@+id/edtGol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Golongan" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnHitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hitung" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtGol"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGaPok" />
+
+    <TextView
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTunjangan" />
+
+    <TextView
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPajak" />
+
+    <TextView
+        android:id="@+id/txtGaBer"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
